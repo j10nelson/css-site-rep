@@ -1,0 +1,66 @@
+body {
+  background: #fff url("../images/bgtile.png") repeat-x;
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+.webpage {
+  margin: 90px auto 0;
+  width: 880px;
+}
+
+.content {
+  float: right;
+}
+
+.main {
+background: url("../images/frame.png") no-repeat;
+width: 424px;
+padding: 40px;
+min-height: 204px;
+}
+
+.main h2 {
+  color: #06365f;
+  font-size: 27px;
+  line-height: 1.3;
+  margin-top: 0;
+}
+
+.main p {
+  margin-top: 10px 0;
+}
+
+.main a {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+.footer-links {
+  clear: both;
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+  text-align: center;
+}
+
+.footer-links li {
+  display: inline;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #999;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer-links a:link {
+  color: #06365f;
+  text-decoration: none;
+  font-weight: bold;
+}
